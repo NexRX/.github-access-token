@@ -1,0 +1,7 @@
+origin: NexRX/NexHub-Mono
+
+statements:
+  - subjects:
+       repo:${origin}:ref:refs/heads/main # allow access from action runs from main branch
+     permissions: # https://docs.github.com/en/rest/authentication/permissions-required-for-github-apps
+       secrets: write
