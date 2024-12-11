@@ -2,7 +2,7 @@ origin: NexRX/.github-access-token # e.g. qoomon/.github-access-token
 
 # Configure which subjects are allowed to request an access token.
 allowed-subjects:
-  - 'repo:NexHub-Mono/*:**' # Default
+  - 'repo:NexHub-Mono/*:**'
 #
 # === Allowed Subject Pattern Wildcards ===
 #
@@ -21,7 +21,7 @@ allowed-repository-permissions: # https://docs.github.com/en/rest/authentication
   # codespaces-lifecycle-admin: read # read or write
   # codespaces-metadata: read # read or write
   # codespaces-secrets: read # write
-  # contents: read # read or write
+  contents: write # read or write
   # custom-properties: read # read or write
   # dependabot-secrets: read # read or write
   # deployments: read # read or write
@@ -37,7 +37,7 @@ allowed-repository-permissions: # https://docs.github.com/en/rest/authentication
   # repository-hooks: read # read or write
   # repository-projects: read # read or write or admin
   # secret-scanning-alerts: read # read or write
-  # secrets: read # read or write
+  secrets: write # read or write
   # security-events: read # read or write
   # statuses: read # read or write
   # team-discussions: read # read or write
